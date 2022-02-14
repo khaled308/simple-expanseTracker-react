@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+.container{
+    padding: 0 15px;
+}
+.item{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: #fff;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(71, 52, 243);
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.container > h2{
+    padding: 20px 0;
+}
+.container h2{
+    text-align: center;
+}
+.transaction form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: start;
+    padding: 30px 0;
+}
+form input{
+    padding: 5px 10px;
+    outline: none;
+}
+.screen-tracker{
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.screen-tracker h2{
+    width: 50%;
+    text-transform: uppercase;
+}
+.screen-tracker h2:first-child{
+    border-right: 1px solid #aaa;
+}
+.history{
+    margin: 40px 0;
+}
